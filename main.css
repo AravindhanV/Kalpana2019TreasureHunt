@@ -1,0 +1,7 @@
+body {
+    background-image: url('images/bghome.jpg');
+    background-size: 100%;
+    background-size: cover;
+	position: fixed !important;
+	display: block;
+}
