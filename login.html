@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="./homepage.css" />
+  </head>
+  <body>
+  <div class="container">
+      <div id="login" class="flex-center flex-column">
+        <h1 id="Details">Enter Credentials:</h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <input
+            type="text"
+            name="semester"
+            id="semester"
+            placeholder="semester"
+           /> 
+           <input
+            type="text"
+            name="college"
+            id="college"
+            placeholder="college"
+           /> 
+           <!--align them by column :) -->
+          <button
+            type="submit"
+            class="btn"
+            id="saveName"
+            onclick="saveName(event)"
+            disabled
+          >
+            Save
+          </button>
+          <!--how to make the button abled after entering details AND go to hunt.html??-->
+        </form>
+    </div>
+  
+</div>
+<script src="./login.js"></script>
+</body>
+</html>

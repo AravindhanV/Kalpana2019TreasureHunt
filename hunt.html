@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>treasureHunt</title>
+    <link rel="stylesheet" href="./homepage.css" />
+    <link rel="stylesheet" href="./thunt.css" />
+  </head>
+  <body>
+    <!--this is progress bar-->
+      <div class="container">
+          <div id="game" class="justify-center flex-column">
+            <div id="hud">
+              <div id="hud-item">
+                <p id="progressText" class="hud-prefix">
+                  Question
+                </p>
+                <div id="progressBar">
+                  <div id="progressBarFull"></div>
+                </div>
+              </div>
+              <div id="hud-item">
+                <p class="hud-prefix">
+                  Score
+                </p>
+                <h1 class="hud-main-text" id="score">
+                  0
+                </h1>
+              </div>
+            </div>
+    <!--these are choices-->
+    <div class="container">
+      <div id="treasureHunt" class="justify-center flex-column">
+        <h5 id="quesiton">What where when why?</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text">Choice 1</p>
+          <p><img src="./choice1.jpg" alt="choice-1" style="float:right;width:42px;height:42px;"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text">Choice 2</p>
+          <p><img src="./choice2.jpg" alt="choice-2" style="float:right;width:42px;height:42px;"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text">Choice 3</p>
+          <p><img src="./choice3.jpg" alt="choice-3" style="float:right;width:42px;height:42px;"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text">Choice 4</p>
+          <p><img src="./choice4.jpg" alt="choice-4" style="float:right;width:42px;height:42px;"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./thunt.js"></script>
+  </body>
+</html>
