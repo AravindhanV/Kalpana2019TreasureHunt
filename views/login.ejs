@@ -11,34 +11,32 @@
   <div class="container">
       <div id="login" class="flex-center flex-column">
         <h1 id="Details">Enter Credentials:</h1>
-        <form>
+        <form action="/register" method="POST">
           <input
             type="text"
             name="username"
             id="username"
-            placeholder="username"
+            placeholder="Username"
           />
           <input
             type="text"
-            name="semester"
-            id="semester"
-            placeholder="semester"
+            name="email"
+            id="email"
+            placeholder="Email"
            /> 
            <input
-            type="text"
-            name="college"
-            id="college"
-            placeholder="college"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
            /> 
            <!--align them by column :) -->
           <button
             type="submit"
             class="btn"
             id="saveName"
-            onclick="saveName(event)"
-            disabled
           >
-            Save
+            Register
           </button>
           <!--how to make the button abled after entering details AND go to hunt.html??-->
         </form>
